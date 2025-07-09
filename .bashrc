@@ -21,7 +21,7 @@ alias grep='grep --color=auto'
 #	PS1='[\u@\h \W]\$ '
 
 #PS1="$reset $crab $green\\t$reset $crab $green"
-PS1="\[$reset\] 🦀 \[$green\]\t \[$reset\]🦀 \[$green\]\w\[$reset\] \$ "
+PS1="\[$reset\] 🦀 \[$green\]\t \[$reset\]🦀 "
 
 export LS_COLORS=$LS_COLORS:'di=07;32:'
 export PATH=$HOME/.local/bin:$PATH
