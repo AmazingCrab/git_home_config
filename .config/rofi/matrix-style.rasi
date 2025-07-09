@@ -1,0 +1,43 @@
+* {
+    /* Colores principales */
+    background:     #000000;
+    foreground:     #00FF41; /* Verde Matrix */
+    border-color:   #008F11; /* Verde más oscuro */
+    selected:       #000000;
+    active:         #00FF41;
+    urgent:         #FF0000;
+}
+
+window {
+    background-color: #000000;
+    border:          1px;
+    border-color:    @border;
+    padding:         20px;
+    width:          40%;
+}
+
+textbox {
+    text-color: @foreground;
+}
+
+listview {
+    lines:      10;
+    padding:    5px 0px;
+    scrollbar:  false;
+}
+
+element {
+    padding:    5px;
+    text-color: @foreground;
+}
+
+element selected {
+    background-color: @foreground;
+    text-color:       @selected;
+}
+
+entry {
+    padding:    5px;
+    text-color: @foreground;
+    background-color: transparent;
+}
