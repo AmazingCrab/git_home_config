@@ -1,2 +1,3 @@
 [Added Associations]
 application/x-shellscript=vim.desktop;
+text/x-python=codium.desktop;
