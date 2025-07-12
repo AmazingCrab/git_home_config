@@ -1,0 +1,9 @@
+configuration {
+    font: "Monospace 12";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    // Otras configuraciones...
+}
+
+@theme "matrix-style.rasi"
+

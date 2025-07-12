@@ -1,0 +1,17 @@
+! Fondo negro y texto verde estilo Matrix
+xterm*background: #000000
+xterm*foreground: #00FF00
+xterm*faceName: DejaVu Sans Mono
+xterm*faceSize: 18
+xterm*termName: xterm-256color
+xterm*geometry: 100x30
+
+xterm*scrollBar: false
+xterm*rightScrollBar: false
+xterm*jumpScroll: true
+xterm*cursorBlink: true
+xterm*cursorColor: #00FF00
+
+xterm*utf8: 1
+xterm*meta8: true
+

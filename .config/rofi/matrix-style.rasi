@@ -1,0 +1,78 @@
+/**
+ * Tema Matrix mejorado - Combina ADW-GTK Dark con verdes neón
+ * Elimina todos los blancos, reemplazando por:
+ * - Texto principal: Verde Matrix (#00FF41)
+ * - Texto secundario: Gris ADW-GTK Dark (#87909C)
+ * - Fondos: Negro puro (#000000) con detalles oscuros
+ */
+
+* {
+    /* Paleta de colores */
+    background:     #000000;       /* Fondo negro absoluto */
+    foreground:     #00FF41;       /* Verde Matrix brillante */
+    lightbg:        #101010;       /* Negro más claro */
+    darkaccent:     #005500;       /* Verde oscuro */
+    textprimary:    #00FF41;       /* Verde para texto principal */
+    textsecondary:  #87909C;       /* Gris ADW-GTK Dark para texto secundario */
+    urgentcolor:    #FF3333;       /* Rojo para alertas */
+}
+
+/* Ventana principal - Estilo terminal */
+window {
+    background-color: @background;
+
+    border-radius:   0px;          /* Esquinas cuadradas */
+    padding:         15px;
+    width:          35%;
+    children:       [ prompt, listview ];
+}
+
+/* Barra de búsqueda */
+entry, prompt {
+    text-color:     @textprimary;
+    background-color: @lightbg;
+    font:          "Fira Code Bold 12";
+    placeholder-color: #555555;
+    padding:        8px;
+}
+
+/* Lista de aplicaciones - Estilo "terminal de hacker" */
+listview {
+    background-color: transparent;
+    spacing:        2px;
+    scrollbar:      false;
+    padding:        5px 0px;
+    dynamic:        true;
+}
+
+/* Elementos normales */
+element {
+    text-color:     @textsecondary;  /* Gris ADW para texto normal */
+    background-color: transparent;
+    padding:        8px 12px;
+}
+
+/* Elemento seleccionado */
+element selected {
+    text-color:     @textprimary;    /* Verde brillante */
+    background-color: @darkaccent;   /* Fondo verde oscuro */
+    border:          none;
+}
+
+/* Iconos */
+element-icon {
+    size:           1.2em;
+}
+
+/* Texto urgente */
+element urgent {
+    text-color:     @urgentcolor;
+    background-color: #1E0A0A;
+}
+
+/* Mensajes de estado */
+message {
+    text-color:     @textsecondary;
+    background-color: @lightbg;
+    margin:         5px 0px;
+}
