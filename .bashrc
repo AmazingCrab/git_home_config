@@ -9,7 +9,7 @@ reset=$(tput sgr0)
 #
 #
 alias sudo='sudo '
-alias nano='nano --rcfile /home/acrab/.nanorc'
+#alias nano='nano --rcfile /home/acrab/.nanorc'
 alias timeshift='sudo GTK_THEME=Adwaita:dark timeshift-gtk'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -23,12 +23,12 @@ alias git_AmazingCrab='
 #
 alias git_e-conte='
     git config  user.name "e-conte" &&
-    git config  user.email "160084751+e-conte@users.noreply.github.com\")"
+    git config  user.email "160084751+e-conte@users.noreply.github.com"
 '
 
 alias git_crabsAreAmazing='
     git config --global user.name "crabsAreAmazing" &&
-    git config --global user.email "28488526-crabsAreAmazing@users.noreply.gitlab.com\")"
+    git config --global user.email "28488526-crabsAreAmazing@users.noreply.gitlab.com"
 '
 
 
