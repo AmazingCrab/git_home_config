@@ -1,12 +1,12 @@
 #
 # ~/.bashrc
-
+###
 green=$(tput setaf 2)
 crab=$(printf "\U001f980")
 skull=$(printf "\u2620")
 reset=$(tput sgr0)
 #
-##
+#
 #
 alias sudo='sudo '
 #alias nano='nano --rcfile /home/acrab/.nanorc'
